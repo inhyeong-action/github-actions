@@ -1,8 +1,8 @@
-name: pull-request-workow
+name: pull-request-workflow
 on: pull_request
 
 jobs:
-  push-request-job:
+  pull-request-job:
     runs-on: ubuntu-latest
     steps:
       - name: step1
