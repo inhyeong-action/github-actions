@@ -18,3 +18,5 @@ Y
 ).github/workflows/part1/pull_request.yaml,a/1/a1adbf3f66911a7a6903f78090583713827c30d5
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+T
+$.github/workflows/issue_comment.yaml,c/4/c438d3753483caa4745845a24bb17008d203ab78
