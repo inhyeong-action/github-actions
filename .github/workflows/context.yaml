@@ -11,3 +11,11 @@ jobs:
         run : |
           echo ${{ github.repository }}
           echo ${{ github.event_name }}
+      - name: check github context1111
+        run: |
+          echo ${{ github.repository }}
+          echo ${{ github.event_name }}
+      - name: check github context2222
+        run: |
+          echo ${{ github.repository }}
+          echo ${{ github.event_name }}
