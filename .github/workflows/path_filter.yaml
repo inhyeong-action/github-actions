@@ -1,0 +1,13 @@
+# 설정한 경로에 있는 파일이 변경됐을때 실행
+name: path-filter
+on:
+  push:
+    paths:
+      - '.github/workflows/part1/*'
+
+jobs:
+  path-filter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo hello
+        run: echo hello

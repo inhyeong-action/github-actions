@@ -1,3 +1,4 @@
+# 원하는 branch 선택 가능
 name: branch_filter.yaml
 on:
   push:
