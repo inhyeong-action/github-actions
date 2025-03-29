@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/part1/*'
+      - '!.github/workflows/part1/*' # 해당 파일 제외(명시적으로)
 
 jobs:
   path-filter:
